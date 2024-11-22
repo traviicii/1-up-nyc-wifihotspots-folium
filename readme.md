@@ -198,10 +198,3 @@ Here’s how the steps come together:
 ### **3. Pandas `DataFrame.iterrows()`**
 - Iterates through rows of a DataFrame, returning both the row index and the row data.
 
----
-
-## **When and Why to Use It**
-- **When**: Anytime you need to visualize geospatial data or present location-based data interactively.
-- **Why**:
-  - Makes geospatial data easier to understand and explore.
-  - Allows dynamic customization and user-driven exploration.
