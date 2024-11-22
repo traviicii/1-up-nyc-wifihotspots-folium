@@ -6,7 +6,7 @@ outfile = borough.lower() + "wifihotspots.html"
 
 data = pd.read_csv("./NYC_Wi-Fi_Hotspot_Locations_20241121.csv")
 
-map = folium.Map(location=[40.768731, -73.964915], tiles="Cartodb dark_matter")
+map = folium.Map(location=[40.768731, -73.964915]) # , tiles="Cartodb dark_matter" <-- for a cool darker colored map
 
 for index, row in data.iterrows():
     if row["Borough Name"] == borough:
